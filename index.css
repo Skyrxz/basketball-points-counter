@@ -19,19 +19,23 @@ body {
 }
 
 .container h3{
-    font-size: 25px;
+    font-size: 4vw;
 }
 
 .screen {
     font-family: "Cursed Timer ULil";
-    font-size: 50px;
+    font-size: 8vw;
     background-color: black;
     padding: 10px;
     padding-left: 0px;
     border-radius: 5px;
     color: #F94F6D;
     padding-right: 0px;
-    max-width: 100px;
+    max-width: 1200vw;
+    width: 25vw;
+    height: 12vw;
+    padding-top: 8vw;
+    align-items: center;
 }
 
 .btns {
@@ -44,7 +48,7 @@ body {
     text-align: center; 
     font-family: "Cursed Timer ULil";
     padding: 3px;
-    font-size: 10px;
+    font-size: 2.5vw;
     cursor: pointer;
     border: solid 1px #9AABD8;
     border-radius: 5px;
@@ -52,10 +56,10 @@ body {
 }
 
 #newGame {
-    height: 30px;
+    height: 5vw;
     font-family: 'Cursed Timer ULil', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif;
-    font-size: 10px;
-    width: 50px;
+    font-size: 2.5vw;
+    width: 8vw;
     cursor: pointer;
     margin: 5px;
     border-radius: 3px;
