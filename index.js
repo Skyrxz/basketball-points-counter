@@ -58,11 +58,11 @@ newGame.onclick = function (){
  
  function leaderChecker(){
      if(homeCount > guestCount){
-         homeCountEl.style.color = '#ffcc99';
+         homeCountEl.style.color = 'rgba(128, 255, 128, 0.809)';
          guestCountEl.style.color = '#F94F6D';
      } else if (guestCount > homeCount){
          homeCountEl.style.color = '#F94F6D';
-         guestCountEl.style.color = '#ffcc99';
+         guestCountEl.style.color = 'rgba(128, 255, 128, 0.809)';
      } else if (guestCount == homeCount) {
          homeCountEl.style.color = '#F94F6D';
          guestCountEl.style.color = '#F94F6D';
